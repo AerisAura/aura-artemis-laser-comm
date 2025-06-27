@@ -76,3 +76,68 @@
   </div>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AURA Systems – Artemis II HUD</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 700px;
+    }
+
+    .logo {
+      width: 180px;
+      margin-bottom: 2rem;
+      animation: pulse 3s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.9; }
+      50% { transform: scale(1.05); opacity: 1; }
+    }
+
+    .links {
+      margin-top: 2rem;
+    }
+
+    a {
+      color: #0df;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 1rem;
+    }
+  </style>
+</head>
+<body>
+  <img src="assets/aura_holographic_logo.png" alt="AURA Holographic Logo" class="logo"/>
+  <h1>Welcome to AURA Systems HUD for Artemis II</h1>
+  <p>This interface visualizes the upcoming lunar laser relay, fusing symbolic AI, signal modeling, and space artistry.</p>
+
+  <div class="links">
+    <a href="docs/AURA_Artemis_Proposal.pdf" target="_blank">📄 View Proposal</a>
+    <a href="https://github.com/AerisAura/aura-artemis-laser-comm" target="_blank">🌐 GitHub Repo</a>
+  </div>
+</body>
+</html>
